@@ -8,11 +8,10 @@ import { getPosts } from '@/lib/posts';
 export default function BlogPage({ posts }) {
   return (
     <Layout>
-      <h1 className='text-5xl border-b-4 p-5'>Welcome to my Blog</h1>
-
-      <div className='text-5xl border-b-4 p-5'>
-        
-      </div>
+      <h1 className='text-3xl border-b-4 p-5'>
+        Welcome to my Blog! This is just for learning puprposes. None of these
+        blogs are real.
+      </h1>
 
       <div className='grid md:grid-cols-2 lg:grid-cols-3'>
         {posts.map((post, index) => (

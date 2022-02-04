@@ -9,9 +9,8 @@ export default function about() {
         <h3 className='text-2xl mb-5'>My Blog</h3>
 
         <p className='mb-3'>
-          This blog was built with Next.js, TailwindCSS, and Markdown. With this
-          blog my hope is to develope my understanding of things. Things that I
-          find interesting.
+          This blog was built with Next.js, TailwindCSS, and Markdown. I hope to
+          use this blog in the future.
         </p>
 
         <p>
